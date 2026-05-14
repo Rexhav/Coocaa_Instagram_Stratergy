@@ -76,13 +76,14 @@ const contentTypes = [
 ];
 
 const schedule = [
-  ["13-05", "Informational", "5 TV Facts"],
-  ["15-05", "Emotional", "Family Movie Night"],
-  ["17-05", "Interactive", "Rate This Setup"],
+  ["13-05", "Emotional", "Family Movie Night"],
+  ["15-05", "Interactive", "Rate This Setup"],
+  ["17-05", "Informational", "5 TV Facts"],
   ["19-05", "Series", "Rhea & Kabir Ep.1"],
-  ["21-05", "Informational", "Hidden TV Tricks"],
-  ["23-05", "Emotional", "Cricket Watch Party"],
-  ["25-05", "Interactive", "Gaming Setup Poll"],
+
+  ["21-05", "Emotional", "Cricket Watch Party"],
+  ["23-05", "Interactive", "Gaming Setup Poll"],
+  ["25-05", "Informational", "Hidden TV Tricks"],
   ["27-05", "Series", "Rhea & Kabir Ep.2"],
 ];
 
