@@ -1028,7 +1028,283 @@ export default function Page() {
           </div>
         </div>
       </section>
+{/* =======================
+   CYCLE 1 ANALYSIS
+======================= */}
 
+<section className="mt-32">
+
+<div className="mb-10">
+<h2 className="text-6xl font-black tracking-tight">
+🚀 Cycle 1 Analysis
+</h2>
+
+<p className="text-zinc-400 mt-3">
+第一轮分析 • Performance Review • Strategy
+</p>
+</div>
+
+
+<div className="grid md:grid-cols-4 gap-5">
+
+<div className="rounded-[28px] bg-gradient-to-br from-cyan-500/10 to-transparent p-8 border border-cyan-500/20">
+<div className="text-5xl">👀</div>
+<div className="text-4xl font-black mt-4">101K</div>
+<div className="text-zinc-400">
+Views Generated
+</div>
+</div>
+
+<div className="rounded-[28px] bg-gradient-to-br from-pink-500/10 to-transparent p-8 border border-pink-500/20">
+<div className="text-5xl">👥</div>
+<div className="text-4xl font-black mt-4">
+659
+</div>
+
+<div className="text-zinc-400">
+Followers
+</div>
+</div>
+
+
+<div className="rounded-[28px] bg-gradient-to-br from-green-500/10 to-transparent p-8 border border-green-500/20">
+
+<div className="text-5xl">
+💸
+</div>
+
+<div className="text-4xl font-black mt-4">
+₹1,927
+</div>
+
+<div className="text-zinc-400">
+Budget Used
+</div>
+
+</div>
+
+
+<div className="rounded-[28px] bg-gradient-to-br from-yellow-500/10 to-transparent p-8 border border-yellow-500/20">
+
+<div className="text-5xl">
+🎯
+</div>
+
+<div className="text-4xl font-black mt-4">
+42%
+</div>
+
+<div className="text-zinc-400">
+Toward 240K Views Goal
+</div>
+
+</div>
+
+</div>
+
+
+<div className="mt-16 rounded-[30px] border border-white/10 overflow-hidden">
+
+<table className="w-full">
+
+<thead className="bg-white/5">
+
+<tr>
+
+<th className="p-6">
+Reel
+</th>
+
+<th>
+Views
+</th>
+
+<th>
+Followers
+</th>
+
+<th>
+Budget
+</th>
+
+<th>
+Cost/View
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr className="border-t border-white/10">
+
+<td className="p-6">
+❤️ Emotional
+</td>
+
+<td>
+11,547
+</td>
+
+<td>
+190
+</td>
+
+<td>
+₹478
+</td>
+
+<td>
+₹0.041
+</td>
+
+</tr>
+
+
+<tr className="border-t border-white/10">
+
+<td className="p-6">
+😂 Interactive
+</td>
+
+<td>
+45,498
+</td>
+
+<td>
+216
+</td>
+
+<td>
+₹483
+</td>
+
+<td>
+₹0.010 🏆
+</td>
+
+</tr>
+
+
+<tr className="border-t border-white/10">
+
+<td className="p-6">
+🧠 Informational
+</td>
+
+<td>
+23,671
+</td>
+
+<td>
+91
+</td>
+
+<td>
+₹483
+</td>
+
+<td>
+₹0.020
+</td>
+
+</tr>
+
+
+<tr className="border-t border-white/10">
+
+<td className="p-6">
+📺 Series
+</td>
+
+<td>
+20,474
+</td>
+
+<td>
+162
+</td>
+
+<td>
+₹483
+</td>
+
+<td>
+₹0.024
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<div className="mt-20">
+
+<h3 className="text-4xl font-black mb-6">
+📈 Target Tracker
+</h3>
+
+<div className="space-y-6">
+
+<div>
+
+<div className="flex justify-between">
+<span>
+Views
+</span>
+
+<span>
+101K / 240K
+</span>
+</div>
+
+<div className="h-5 rounded-full bg-white/10 overflow-hidden">
+
+<div
+className="h-full rounded-full bg-cyan-400"
+style={{width:"42%"}}
+/>
+
+</div>
+
+</div>
+
+
+<div>
+
+<div className="flex justify-between">
+
+<span>
+Followers
+</span>
+
+<span>
+659 / 200
+</span>
+
+</div>
+
+<div className="h-5 rounded-full bg-white/10 overflow-hidden">
+
+<div
+className="h-full rounded-full bg-pink-400"
+style={{width:"100%"}}
+/>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 </main>
   );
 }
