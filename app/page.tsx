@@ -953,6 +953,82 @@ export default function Page() {
           </p>
         </div>
       </section>
-    </main>
+    
+      {/* CYCLE 1 ANALYSIS */}
+      <section className="relative z-10 max-w-7xl mx-auto px-8 py-32">
+        <div className="mb-10">
+          <div className="text-cyan-300 tracking-[0.4em] text-sm">周期一 · CYCLE 1 ANALYSIS</div>
+          <h2 className="text-6xl font-black mt-3">Content Experiment Report</h2>
+          <p className="text-white/60 mt-4">Data • Learnings • 下一步</p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {[
+            ["13-05","❤️ Emotional","1.1.jpg","11.5K Views","190 Follows"],
+            ["17-05","🗳️ Interactive","1.2.jpg","45.5K Views","216 Follows"],
+            ["19-05","💡 Informational","1.3.jpg","23.6K Views","91 Follows"],
+            ["21-05","🎬 Series","1.4.jpg","20.4K Views","162 Follows"],
+          ].map((x,i)=>(
+            <div key={i} className="rounded-[36px] overflow-hidden border border-white/10 bg-white/[0.03]">
+              <div className="relative aspect-[9/16]">
+                <Image src={`/${x[2]}`} alt="" fill className="object-cover"/>
+              </div>
+              <div className="p-6">
+                <div className="text-cyan-300">{x[0]}</div>
+                <div className="text-3xl font-bold">{x[1]}</div>
+                <div className="flex gap-3 mt-3">
+                  <div>{x[3]}</div>
+                  <div>{x[4]}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-20 rounded-[40px] p-10 border border-cyan-500/20 bg-gradient-to-br from-cyan-500/5 to-purple-500/5">
+          <div className="text-5xl font-black">📈 Cycle 1 → Cycle 2</div>
+          <div className="mt-6 grid md:grid-cols-4 gap-5">
+            {[
+              ["240K+","Views Target"],
+              ["200+","Followers"],
+              ["More Saves","Priority"],
+              ["Lower CPV","Goal"]
+            ].map((a,i)=>(
+              <div key={i} className="rounded-3xl bg-black/30 p-6">
+                <div className="text-4xl font-black">{a[0]}</div>
+                <div className="text-white/60">{a[1]}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-20">
+          <h3 className="text-5xl font-black mb-8">即将上线 · Upcoming Reels</h3>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="rounded-[32px] overflow-hidden">
+              <div className="relative aspect-[9/16]">
+                <Image src="/2.1.jpg" alt="" fill className="object-cover"/>
+              </div>
+              <div className="p-5">❤️ Emotional — Add a soft nostalgic / sad touch to connect deeper</div>
+            </div>
+
+            <div className="rounded-[32px] overflow-hidden">
+              <div className="relative aspect-[9/16]">
+                <Image src="/2.2.jpg" alt="" fill className="object-cover"/>
+              </div>
+              <div className="p-5">🪳 Interactive — clever take on current viral cockroach trend</div>
+            </div>
+
+            {[1,2].map(i=>(
+              <div key={i} className="rounded-[32px] border border-dashed border-white/20 backdrop-blur-3xl aspect-[9/16] flex items-center justify-center text-7xl">
+                ?
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+</main>
   );
 }
